@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+  "android": {
+  "package": "com.mycompany.myapp",
+  "intentFilters": [
+    {
+      "action": "VIEW",
+      "data": [
+        {
+          "scheme": "https",
+          "host": "myapp.com",
+          "pathPrefix": "/"
+        },
+        {
+          "scheme": "myapp"
+        }
+      ],
+      "category": [
+        "BROWSABLE",
+        "DEFAULT"
+      ]
+    }
+  ]
+},
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-router"
+    ]
+  }
+}
