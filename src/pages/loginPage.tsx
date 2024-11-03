@@ -49,7 +49,7 @@ export default function Login({ navigation }) {
                         errorMessage = 'Email inválido. Verifique o formato.';
                         break;
                     default:
-                        errorMessage = 'Ocorreu um erro. Tente novamente.';
+                        errorMessage = 'Ocorreu um erro Email ou senha invalidos. Tente novamente.';
                 }
                 
                 alert(errorMessage); // Exibir a mensagem de erro específica
