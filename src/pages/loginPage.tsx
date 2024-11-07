@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Image, ImageBackground, TouchableOpacity, TextI
 import { useState, useEffect } from "react";
 import { auth } from "../../firebase"; // Certifique-se de importar auth corretamente
 import { signInWithEmailAndPassword } from "firebase/auth"; // Importar a função
+import React from "react";
 
 export default function Login({ navigation }) {
     const [email, setEmail] = useState('');
